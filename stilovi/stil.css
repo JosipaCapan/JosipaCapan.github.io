@@ -42,3 +42,16 @@ h1, h2 {
 a:visited {
     color: rgb(167, 59, 82);
   }
+
+
+      @font-face { 
+        font-family: myfont; 
+        src: url("../documents/vj1.ttf");
+
+       
+    } 
+    h1 {
+        font-family: myfont;
+       font-size: 60px;
+       font-weight: 10;
+    }
